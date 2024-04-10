@@ -1,0 +1,10 @@
+# metadata of our application
+apiVersion: v2
+name: nginx
+version: 0.0.1 # This is the chart version
+description: This is the helm chart of mongodb
+appVersion: "1.0.0" #this version belongs to application
+
+
+
+#Yes, it's generally necessary for every Helm chart to have a Chart.yaml file. This file serves as the metadata and configuration definition for the Helm chart. Without it, Helm wouldn't be able to properly manage the chart, including versioning, dependency resolution, and installation.
